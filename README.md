@@ -28,6 +28,7 @@ Click on **New** and insert the path where you have saved the SendFile script
 
 ## How to use the script
 First cd inside the directory where the files you want to send reside
+
 -To send all files to all machines
 **SendFile**
 
