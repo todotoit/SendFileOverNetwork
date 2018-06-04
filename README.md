@@ -29,14 +29,18 @@ Click on **New** and insert the path where you have saved the SendFile script
 ## How to use the script
 First cd inside the directory where the files you want to send reside
 
--To send all files to all machines
+-To send all files to all machines:
+
 **SendFile**
 
--To send a specific file to all machines
+-To send a specific file to all machines:
+
 **SendFile all file_to_send.mp4**
 
--To send all files to a specific machine
+-To send all files to a specific machine:
+
 **SendFile 192.168.1.134** 
 
--To send a specific file to a specific machine
+-To send a specific file to a specific machine:
+
 **SendFile 192.168.1.134 file_to_send.mp4**
