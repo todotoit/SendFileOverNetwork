@@ -5,13 +5,13 @@ set file=%~2
 set to_all=1
 set all_files=1
 REM Remote Machine user
-set username=prometheus
+set username=utente
 REM Remote Machine user password
-set passwd=ro
+set passwd=d0tt0
 REM Remote Machine destination folder 
-set destination=c:/Users/prometheus/PSCP
+set destination=c:/Users/utente/TeatrinoVideo
 REM List of all machines ip
-set ip_list="192.168.1.136" "192.168.1.137"
+set ip_list="192.168.0.21" "192.168.0.22" "192.168.0.23" "192.168.0.24" "192.168.0.25" "192.168.0.26"
 
 REM if there are no parameters in input send all files to all machines
 if "%ip%"=="" goto :send_all_to_all
